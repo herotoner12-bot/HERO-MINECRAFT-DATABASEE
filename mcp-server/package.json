@@ -1,0 +1,22 @@
+{
+  "name": "hero-minecraft-mcp-server",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MCP server (stdio + HTTP) exposing the Minecraft Bedrock database to Claude. No runtime dependencies.",
+  "main": "dist/mcp-server/server.js",
+  "bin": { "hero-minecraft-mcp": "dist/mcp-server/server.js" },
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "dev": "tsx server.ts",
+    "start": "node dist/mcp-server/server.js",
+    "start:http": "node dist/mcp-server/server.js --http",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

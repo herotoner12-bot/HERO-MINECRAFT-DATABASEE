@@ -1,0 +1,339 @@
+{
+  "schemaVersion": 1,
+  "type": "block",
+  "imageSources": {
+    "mojang-bedrock-samples": {
+      "name": "Mojang/bedrock-samples (official Mojang repository)",
+      "repository": "https://github.com/Mojang/bedrock-samples",
+      "baseUrl": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/",
+      "notes": "Official Bedrock vanilla resource-pack textures. Check the repository license and Mojang's usage guidelines before commercial use. Mob images are entity skin textures, not portraits."
+    }
+  },
+  "entries": [
+    {
+      "id": "minecraft:stone",
+      "name": {
+        "en": "Stone",
+        "ar": "حجر"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/stone.png"
+      }
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "name": {
+        "en": "Cobblestone",
+        "ar": "حجر مرصوف"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/cobblestone.png"
+      },
+      "aliases": {
+        "ar": [
+          "كوبلستون"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:dirt",
+      "name": {
+        "en": "Dirt",
+        "ar": "تراب"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/dirt.png"
+      }
+    },
+    {
+      "id": "minecraft:sand",
+      "name": {
+        "en": "Sand",
+        "ar": "رمل"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/sand.png"
+      }
+    },
+    {
+      "id": "minecraft:gravel",
+      "name": {
+        "en": "Gravel",
+        "ar": "حصى"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/gravel.png"
+      }
+    },
+    {
+      "id": "minecraft:end_stone",
+      "name": {
+        "en": "End Stone",
+        "ar": "حجر الإند"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/end_stone.png"
+      }
+    },
+    {
+      "id": "minecraft:bedrock",
+      "name": {
+        "en": "Bedrock",
+        "ar": "صخر الأساس"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/bedrock.png"
+      },
+      "aliases": {
+        "ar": [
+          "بدروك"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:obsidian",
+      "name": {
+        "en": "Obsidian",
+        "ar": "أوبسيديان"
+      },
+      "category": "natural",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/obsidian.png"
+      },
+      "aliases": {
+        "ar": [
+          "سبج"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:oak_planks",
+      "name": {
+        "en": "Oak Planks",
+        "ar": "ألواح البلوط"
+      },
+      "category": "wood",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/planks_oak.png"
+      },
+      "aliases": {
+        "ar": [
+          "خشب البلوط",
+          "ألواح خشب"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:oak_log",
+      "name": {
+        "en": "Oak Log",
+        "ar": "جذع البلوط"
+      },
+      "category": "wood",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/log_oak.png"
+      },
+      "aliases": {
+        "ar": [
+          "جذع شجرة",
+          "جذع"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:glass",
+      "name": {
+        "en": "Glass",
+        "ar": "زجاج"
+      },
+      "category": "building",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/glass.png"
+      }
+    },
+    {
+      "id": "minecraft:diamond_ore",
+      "name": {
+        "en": "Diamond Ore",
+        "ar": "خام الألماس"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/diamond_ore.png"
+      },
+      "aliases": {
+        "ar": [
+          "خام الماس"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:iron_ore",
+      "name": {
+        "en": "Iron Ore",
+        "ar": "خام الحديد"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/iron_ore.png"
+      }
+    },
+    {
+      "id": "minecraft:gold_ore",
+      "name": {
+        "en": "Gold Ore",
+        "ar": "خام الذهب"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/gold_ore.png"
+      }
+    },
+    {
+      "id": "minecraft:coal_ore",
+      "name": {
+        "en": "Coal Ore",
+        "ar": "خام الفحم"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/coal_ore.png"
+      }
+    },
+    {
+      "id": "minecraft:emerald_ore",
+      "name": {
+        "en": "Emerald Ore",
+        "ar": "خام الزمرد"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/emerald_ore.png"
+      }
+    },
+    {
+      "id": "minecraft:redstone_ore",
+      "name": {
+        "en": "Redstone Ore",
+        "ar": "خام الريدستون"
+      },
+      "category": "ore",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/redstone_ore.png"
+      }
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "name": {
+        "en": "Block of Diamond",
+        "ar": "كتلة ألماس"
+      },
+      "category": "building",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/diamond_block.png"
+      },
+      "aliases": {
+        "en": [
+          "diamond block"
+        ],
+        "ar": [
+          "بلوك الماس",
+          "كتلة الماس"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:tnt",
+      "name": {
+        "en": "TNT",
+        "ar": "تي إن تي"
+      },
+      "category": "redstone",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/tnt_side.png"
+      },
+      "aliases": {
+        "en": [
+          "dynamite"
+        ],
+        "ar": [
+          "ديناميت",
+          "متفجرات"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "name": {
+        "en": "Crafting Table",
+        "ar": "طاولة الصناعة"
+      },
+      "category": "utility",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/crafting_table_front.png"
+      },
+      "aliases": {
+        "ar": [
+          "طاولة صناعة",
+          "كرافتنج"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:furnace",
+      "name": {
+        "en": "Furnace",
+        "ar": "فرن"
+      },
+      "category": "utility",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/furnace_front_off.png"
+      }
+    },
+    {
+      "id": "minecraft:torch",
+      "name": {
+        "en": "Torch",
+        "ar": "شعلة"
+      },
+      "category": "utility",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/blocks/torch_on.png"
+      },
+      "aliases": {
+        "ar": [
+          "مشعل"
+        ]
+      }
+    }
+  ]
+}

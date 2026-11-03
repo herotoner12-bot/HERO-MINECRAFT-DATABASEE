@@ -1,0 +1,325 @@
+{
+  "schemaVersion": 1,
+  "type": "item",
+  "imageSources": {
+    "mojang-bedrock-samples": {
+      "name": "Mojang/bedrock-samples (official Mojang repository)",
+      "repository": "https://github.com/Mojang/bedrock-samples",
+      "baseUrl": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/",
+      "notes": "Official Bedrock vanilla resource-pack textures. Check the repository license and Mojang's usage guidelines before commercial use. Mob images are entity skin textures, not portraits."
+    }
+  },
+  "entries": [
+    {
+      "id": "minecraft:diamond",
+      "name": {
+        "en": "Diamond",
+        "ar": "ألماس"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/diamond.png"
+      },
+      "aliases": {
+        "ar": [
+          "الماسة",
+          "دايموند"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:emerald",
+      "name": {
+        "en": "Emerald",
+        "ar": "زمرد"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/emerald.png"
+      },
+      "aliases": {
+        "ar": [
+          "إيميرالد"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:iron_ingot",
+      "name": {
+        "en": "Iron Ingot",
+        "ar": "سبيكة حديد"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/iron_ingot.png"
+      },
+      "aliases": {
+        "en": [
+          "iron"
+        ],
+        "ar": [
+          "حديد"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:gold_ingot",
+      "name": {
+        "en": "Gold Ingot",
+        "ar": "سبيكة ذهب"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/gold_ingot.png"
+      },
+      "aliases": {
+        "en": [
+          "gold"
+        ],
+        "ar": [
+          "ذهب"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "name": {
+        "en": "Netherite Ingot",
+        "ar": "سبيكة نذرايت"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/netherite_ingot.png"
+      },
+      "aliases": {
+        "en": [
+          "netherite"
+        ],
+        "ar": [
+          "نذرايت",
+          "نيذرايت"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:coal",
+      "name": {
+        "en": "Coal",
+        "ar": "فحم"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/coal.png"
+      }
+    },
+    {
+      "id": "minecraft:redstone",
+      "name": {
+        "en": "Redstone Dust",
+        "ar": "غبار الريدستون"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/redstone_dust.png"
+      },
+      "aliases": {
+        "en": [
+          "redstone"
+        ],
+        "ar": [
+          "ريدستون"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:stick",
+      "name": {
+        "en": "Stick",
+        "ar": "عصا"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/stick.png"
+      },
+      "aliases": {
+        "ar": [
+          "عصاة"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:string",
+      "name": {
+        "en": "String",
+        "ar": "خيط"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/string.png"
+      }
+    },
+    {
+      "id": "minecraft:bone",
+      "name": {
+        "en": "Bone",
+        "ar": "عظمة"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/bone.png"
+      }
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "name": {
+        "en": "Gunpowder",
+        "ar": "بارود"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/gunpowder.png"
+      }
+    },
+    {
+      "id": "minecraft:blaze_rod",
+      "name": {
+        "en": "Blaze Rod",
+        "ar": "عصا بليز"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/blaze_rod.png"
+      }
+    },
+    {
+      "id": "minecraft:ender_pearl",
+      "name": {
+        "en": "Ender Pearl",
+        "ar": "لؤلؤة الإندر"
+      },
+      "category": "material",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/ender_pearl.png"
+      },
+      "aliases": {
+        "ar": [
+          "لؤلؤة إندر",
+          "بيرل"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:wheat",
+      "name": {
+        "en": "Wheat",
+        "ar": "قمح"
+      },
+      "category": "crop",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/wheat.png"
+      }
+    },
+    {
+      "id": "minecraft:apple",
+      "name": {
+        "en": "Apple",
+        "ar": "تفاحة"
+      },
+      "category": "food",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/apple.png"
+      },
+      "aliases": {
+        "ar": [
+          "تفاح"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:bread",
+      "name": {
+        "en": "Bread",
+        "ar": "خبز"
+      },
+      "category": "food",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/bread.png"
+      }
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "name": {
+        "en": "Diamond Sword",
+        "ar": "سيف ألماس"
+      },
+      "category": "weapon",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/diamond_sword.png"
+      },
+      "aliases": {
+        "ar": [
+          "سيف الماس"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "name": {
+        "en": "Iron Sword",
+        "ar": "سيف حديد"
+      },
+      "category": "weapon",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/iron_sword.png"
+      }
+    },
+    {
+      "id": "minecraft:bow",
+      "name": {
+        "en": "Bow",
+        "ar": "قوس"
+      },
+      "category": "weapon",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/bow_standby.png"
+      }
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "name": {
+        "en": "Diamond Pickaxe",
+        "ar": "معول ألماس"
+      },
+      "category": "tool",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/items/diamond_pickaxe.png"
+      },
+      "aliases": {
+        "ar": [
+          "معول الماس",
+          "بيكاكس ألماس"
+        ]
+      }
+    }
+  ]
+}
