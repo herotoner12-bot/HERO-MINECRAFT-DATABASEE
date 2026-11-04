@@ -1,0 +1,211 @@
+{
+  "schemaVersion": 1,
+  "type": "mob",
+  "imageSources": {
+    "mojang-bedrock-samples": {
+      "name": "Mojang/bedrock-samples (official Mojang repository)",
+      "repository": "https://github.com/Mojang/bedrock-samples",
+      "baseUrl": "https://raw.githubusercontent.com/Mojang/bedrock-samples/main/resource_pack/",
+      "notes": "Official Bedrock vanilla resource-pack textures. Check the repository license and Mojang's usage guidelines before commercial use. Mob images are entity skin textures, not portraits."
+    }
+  },
+  "entries": [
+    {
+      "id": "minecraft:creeper",
+      "name": {
+        "en": "Creeper",
+        "ar": "كريبر"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/creeper/creeper.png"
+      }
+    },
+    {
+      "id": "minecraft:zombie",
+      "name": {
+        "en": "Zombie",
+        "ar": "زومبي"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/zombie/zombie.png"
+      },
+      "aliases": {
+        "ar": [
+          "زومبى"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:skeleton",
+      "name": {
+        "en": "Skeleton",
+        "ar": "هيكل عظمي"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/skeleton/skeleton.png"
+      },
+      "aliases": {
+        "ar": [
+          "سكيلتون"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:spider",
+      "name": {
+        "en": "Spider",
+        "ar": "عنكبوت"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/spider/spider.png"
+      }
+    },
+    {
+      "id": "minecraft:blaze",
+      "name": {
+        "en": "Blaze",
+        "ar": "بليز"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/blaze.png"
+      }
+    },
+    {
+      "id": "minecraft:ghast",
+      "name": {
+        "en": "Ghast",
+        "ar": "غاست"
+      },
+      "category": "hostile",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/ghast/ghast.png"
+      },
+      "aliases": {
+        "ar": [
+          "جاست"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:enderman",
+      "name": {
+        "en": "Enderman",
+        "ar": "إندرمان"
+      },
+      "category": "neutral",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/enderman/enderman.png"
+      },
+      "aliases": {
+        "ar": [
+          "إيندرمان",
+          "اندرمان"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:wolf",
+      "name": {
+        "en": "Wolf",
+        "ar": "ذئب"
+      },
+      "category": "neutral",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/wolf/wolf.png"
+      }
+    },
+    {
+      "id": "minecraft:pig",
+      "name": {
+        "en": "Pig",
+        "ar": "خنزير"
+      },
+      "category": "passive",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/pig/pig.png"
+      }
+    },
+    {
+      "id": "minecraft:cow",
+      "name": {
+        "en": "Cow",
+        "ar": "بقرة"
+      },
+      "category": "passive",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/cow/cow.png"
+      }
+    },
+    {
+      "id": "minecraft:sheep",
+      "name": {
+        "en": "Sheep",
+        "ar": "خروف"
+      },
+      "category": "passive",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/sheep/sheep.png"
+      },
+      "aliases": {
+        "ar": [
+          "نعجة"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:chicken",
+      "name": {
+        "en": "Chicken",
+        "ar": "دجاجة"
+      },
+      "category": "passive",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/chicken.png"
+      },
+      "aliases": {
+        "ar": [
+          "دجاج",
+          "فرخة"
+        ]
+      }
+    },
+    {
+      "id": "minecraft:ender_dragon",
+      "name": {
+        "en": "Ender Dragon",
+        "ar": "تنين الإندر"
+      },
+      "category": "boss",
+      "image": {
+        "source": "mojang-bedrock-samples",
+        "path": "textures/entity/enderdragon/dragon.png"
+      },
+      "aliases": {
+        "en": [
+          "dragon"
+        ],
+        "ar": [
+          "تنين الإيندر",
+          "إندر دراغون"
+        ]
+      }
+    }
+  ]
+}

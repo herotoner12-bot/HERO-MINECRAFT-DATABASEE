@@ -1,0 +1,6 @@
+[
+  { "at": 0.6, "id": "minecraft:diamond_sword", "animation": "pop" },
+  { "at": 3.0, "query": "طاولة الصناعة", "animation": "slide-up", "duration": 2.5 },
+  { "at": 6.0, "id": "creeper", "type": "mob", "animation": "zoom" },
+  { "at": 9.0, "image": "my-own-picture.png", "animation": "fade" }
+]

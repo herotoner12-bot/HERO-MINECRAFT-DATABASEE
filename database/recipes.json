@@ -1,0 +1,296 @@
+{
+  "schemaVersion": 1,
+  "type": "recipe",
+  "entries": [
+    {
+      "id": "minecraft:oak_planks",
+      "type": "crafting_shapeless",
+      "result": {
+        "id": "minecraft:oak_planks",
+        "count": 4
+      },
+      "ingredients": [
+        {
+          "id": "minecraft:oak_log"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:stick",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:stick",
+        "count": 4
+      },
+      "pattern": [
+        "#",
+        "#"
+      ],
+      "key": {
+        "#": {
+          "tag": "minecraft:planks"
+        }
+      }
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:crafting_table",
+        "count": 1
+      },
+      "pattern": [
+        "##",
+        "##"
+      ],
+      "key": {
+        "#": {
+          "tag": "minecraft:planks"
+        }
+      }
+    },
+    {
+      "id": "minecraft:furnace",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:furnace",
+        "count": 1
+      },
+      "pattern": [
+        "###",
+        "# #",
+        "###"
+      ],
+      "key": {
+        "#": {
+          "id": "minecraft:cobblestone"
+        }
+      }
+    },
+    {
+      "id": "minecraft:torch",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:torch",
+        "count": 4
+      },
+      "pattern": [
+        "C",
+        "S"
+      ],
+      "key": {
+        "C": {
+          "id": "minecraft:coal"
+        },
+        "S": {
+          "id": "minecraft:stick"
+        }
+      }
+    },
+    {
+      "id": "minecraft:bread",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:bread",
+        "count": 1
+      },
+      "pattern": [
+        "WWW"
+      ],
+      "key": {
+        "W": {
+          "id": "minecraft:wheat"
+        }
+      }
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:diamond_sword",
+        "count": 1
+      },
+      "pattern": [
+        "D",
+        "D",
+        "S"
+      ],
+      "key": {
+        "D": {
+          "id": "minecraft:diamond"
+        },
+        "S": {
+          "id": "minecraft:stick"
+        }
+      }
+    },
+    {
+      "id": "minecraft:iron_sword",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:iron_sword",
+        "count": 1
+      },
+      "pattern": [
+        "I",
+        "I",
+        "S"
+      ],
+      "key": {
+        "I": {
+          "id": "minecraft:iron_ingot"
+        },
+        "S": {
+          "id": "minecraft:stick"
+        }
+      }
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:diamond_pickaxe",
+        "count": 1
+      },
+      "pattern": [
+        "DDD",
+        " S ",
+        " S "
+      ],
+      "key": {
+        "D": {
+          "id": "minecraft:diamond"
+        },
+        "S": {
+          "id": "minecraft:stick"
+        }
+      }
+    },
+    {
+      "id": "minecraft:bow",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:bow",
+        "count": 1
+      },
+      "pattern": [
+        " #S",
+        "# S",
+        " #S"
+      ],
+      "key": {
+        "#": {
+          "id": "minecraft:stick"
+        },
+        "S": {
+          "id": "minecraft:string"
+        }
+      }
+    },
+    {
+      "id": "minecraft:tnt",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:tnt",
+        "count": 1
+      },
+      "pattern": [
+        "GSG",
+        "SGS",
+        "GSG"
+      ],
+      "key": {
+        "G": {
+          "id": "minecraft:gunpowder"
+        },
+        "S": {
+          "id": "minecraft:sand"
+        }
+      }
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "type": "crafting_shaped",
+      "result": {
+        "id": "minecraft:diamond_block",
+        "count": 1
+      },
+      "pattern": [
+        "###",
+        "###",
+        "###"
+      ],
+      "key": {
+        "#": {
+          "id": "minecraft:diamond"
+        }
+      }
+    },
+    {
+      "id": "minecraft:diamond_from_diamond_block",
+      "type": "crafting_shapeless",
+      "result": {
+        "id": "minecraft:diamond",
+        "count": 9
+      },
+      "ingredients": [
+        {
+          "id": "minecraft:diamond_block"
+        }
+      ]
+    },
+    {
+      "id": "minecraft:iron_ingot_from_iron_ore",
+      "type": "smelting",
+      "station": "minecraft:furnace",
+      "result": {
+        "id": "minecraft:iron_ingot",
+        "count": 1
+      },
+      "ingredient": {
+        "id": "minecraft:iron_ore"
+      }
+    },
+    {
+      "id": "minecraft:gold_ingot_from_gold_ore",
+      "type": "smelting",
+      "station": "minecraft:furnace",
+      "result": {
+        "id": "minecraft:gold_ingot",
+        "count": 1
+      },
+      "ingredient": {
+        "id": "minecraft:gold_ore"
+      }
+    },
+    {
+      "id": "minecraft:glass_from_sand",
+      "type": "smelting",
+      "station": "minecraft:furnace",
+      "result": {
+        "id": "minecraft:glass",
+        "count": 1
+      },
+      "ingredient": {
+        "id": "minecraft:sand"
+      }
+    },
+    {
+      "id": "minecraft:stone_from_cobblestone",
+      "type": "smelting",
+      "station": "minecraft:furnace",
+      "result": {
+        "id": "minecraft:stone",
+        "count": 1
+      },
+      "ingredient": {
+        "id": "minecraft:cobblestone"
+      }
+    }
+  ],
+  "tags": {
+    "minecraft:planks": {
+      "description": "Any planks block. Only oak_planks is listed in blocks.json for now."
+    }
+  }
+}

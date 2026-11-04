@@ -1,0 +1,19 @@
+{
+  "name": "hero-minecraft-video-editor",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Automatic 1080x1920 (9:16) MP4 builder: audio + timed Minecraft images with animation, rendered with FFmpeg.",
+  "main": "dist/video-editor/editor.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "render": "tsx editor.ts",
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

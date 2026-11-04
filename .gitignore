@@ -1,0 +1,10 @@
+node_modules/
+dist/
+output/
+.cache/
+.env
+*.log
+.DS_Store
+# Downloaded textures: keep the folders, ignore the PNGs unless you decide to commit them
+images/**/*.png
+!images/**/.gitkeep
